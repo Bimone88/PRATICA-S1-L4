@@ -1,0 +1,99 @@
+/* stili di base */
+
+h1{
+    font-size: 2em;
+}
+
+p{
+  margin: 0.5em 0; /* 0.5 sopra/sotto 0 destra/sinistra */
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* stili di base */
+
+html {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+body {
+    margin: 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    background-image: url(./sfondo.png);
+}
+
+.header {
+    background-color: aqua;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Gino {
+    list-style-type: none;
+}
+
+#Inter {
+    font: white;
+}
+
+
+
+.GG {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* vrvrv */
+
+.Rossi {
+    color: gray;
+}
+
+.pippo{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.fas fa-arrow-right {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main {
+    background-color: white;
+}
+
+footer {
+    background-color: gray;
+}
+
+.final {
+    color: violet
+}
+
+.clock {
+    display: inline-block;
+    padding-right: 10px
+}
