@@ -42,12 +42,15 @@ body {
 }
 
 .header {
-    background-color: aqua;
+    background: linear-gradient(#0da3c5, #006d88);
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 20px;
+
 }
 
 .Gino {
@@ -55,7 +58,10 @@ body {
 }
 
 #Inter {
-    font: white;
+    font-size: 1.2em;
+    color: white;
+    padding-top: 15px;
+    font-weight: bold;
 }
 
 
@@ -96,4 +102,80 @@ footer {
 .clock {
     display: inline-block;
     padding-right: 10px
+}
+
+ul, li, a {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-top: 10px;
+    color: white;
+}
+
+#logo {
+    margin-top: 15px;
+}
+
+.fer {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: auto;
+}
+
+table {
+    border: 1px solid transparent;
+    border-collapse: collapse;
+    /*border-collapse sceglie come comportarsi quando due bordi sono appiccicati*/
+    padding: auto;
+    margin: auto;
+   
+  }
+
+  td {
+    border: 1px solid transparent;
+    padding: 5px;
+    min-width: 80px;
+  }
+
+
+  tbody {
+    font: inherit;
+    vertical-align: baseline;
+    
+    width: 350px;
+    height: 250px;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+  
+  tbody tr {
+    border-top: 1px solid silver;
+  }
+
+  thead tr {
+    background-color: #3466cc;
+    color: white;
+    height: 40px;
+}
+
+.table {
+    margin: auto;
+}
+
+caption {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    padding: 1.2em;
+    border-right: 1px solid silver;
+}
+
+.Gandalf {
+    background-color: rgb(225, 220, 220);
 }
